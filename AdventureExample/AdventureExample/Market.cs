@@ -30,7 +30,7 @@ namespace AdventureExample
                 default:
                     Console.WriteLine("please try again");
                     SellSandwich();
-                    return "spam";
+                    return null;
             }
         }
     }

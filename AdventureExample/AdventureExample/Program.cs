@@ -16,8 +16,9 @@ namespace AdventureExample
             Restaurant restaurant = new Restaurant();
 
             Console.WriteLine("Where would you like to eat?");
-            string LunchChoice = Console.ReadLine();
-            if (LunchChoice == "Market")
+            string LunchChoice = Console.ReadLine().ToLower();
+            
+            if (LunchChoice == "market")
             {
                 string sandwichChoice = market.SellSandwich();
                 Console.WriteLine("you picked a " + sandwichChoice + "sandwhich ");
