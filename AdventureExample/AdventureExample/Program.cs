@@ -26,7 +26,7 @@ namespace AdventureExample
             if (LunchChoice == "restaurant")
             {
                 string foodChoice = restaurant.SellItem();
-                Console.WriteLine("you picked a " + foodChoice + "sandwhich ");
+                Console.WriteLine("you picked a " + foodChoice);
             }
 
             Console.WriteLine("How would you like to pay?  Credit, or cash?");
